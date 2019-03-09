@@ -19,10 +19,8 @@ Note: Should the build fail run Build -> ```clean project``` then Build -> ```re
 Coming soon to the app store!
 
 ## Screenshots
-![Screenshot1](Screenshots/Screenshot_20190309-151155.jpg =100x200 "Splash Page")
-![Screenshot2](Screenshots/Screenshot_20190309-151242.jpg "Correct Answer")
-![Screenshot3](Screenshots/Screenshot_20190309-151224.jpg "Incorrect Answer")
-![Screenshot3](Screenshots/Screenshot_20190309-151253.jpg "Show hint")
+<img src="Screenshots/Screenshot_20190309-151155.jpg" alt="Screenshot1" title="Splash Page" width="300" hspace="20"/><img src="Screenshots/Screenshot_20190309-151242.jpg" alt="Screenshot2" title="Correct Answer" width="300" hspace="20"/>
+<img src="Screenshots/Screenshot_20190309-151224.jpg" alt="Screenshot3" title="Incorrect Answer" width="300" hspace="20"/><img src="Screenshots/Screenshot_20190309-151253.jpg" alt="Screenshot4" title="Hint" width="300" hspace="20"/>
 
 ## Built With
 * Java
