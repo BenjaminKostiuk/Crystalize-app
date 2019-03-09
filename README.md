@@ -19,7 +19,7 @@ Note: Should the build fail run Build -> ```clean project``` then Build -> ```re
 Coming soon to the app store!
 
 ## Screenshots
-![Screenshot1](Screenshots/Screenshot_20190309-151155.jpg "Splash Page")
+![Screenshot1](Screenshots/Screenshot_20190309-151155.jpg =100x200 "Splash Page")
 ![Screenshot2](Screenshots/Screenshot_20190309-151242.jpg "Correct Answer")
 ![Screenshot3](Screenshots/Screenshot_20190309-151224.jpg "Incorrect Answer")
 ![Screenshot3](Screenshots/Screenshot_20190309-151253.jpg "Show hint")
