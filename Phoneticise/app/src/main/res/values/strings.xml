@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Phoneticise</string>
+    <string name="question">What is the letter %s in the phonetic alphabet?</string>
+    <string-array name="Letters">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+    </string-array>
+    <string-array name="Answers">
+        <item>alpha</item>
+        <item>beta</item>
+        <item>charlie</item>
+        <item>delta</item>
+        <item>echo</item>
+        <item>foxtrot</item>
+        <item>golf</item>
+        <item>hotel</item>
+        <item>india</item>
+        <item>juliet</item>
+        <item>kilo</item>
+        <item>lima</item>
+        <item>mike</item>
+        <item>november</item>
+        <item>oscar</item>
+        <item>papa</item>
+        <item>quebec</item>
+        <item>romeo</item>
+        <item>sierra</item>
+        <item>tango</item>
+        <item>uniform</item>
+        <item>victor</item>
+        <item>whiskey</item>
+        <item>x-ray</item>
+        <item>yankee</item>
+        <item>zulu</item>
+    </string-array>
+    <string-array name="Hints">
+        <item>A tough, domineering male</item>
+        <item>Well done!</item>
+        <item>Snoopy\'s mate</item>
+        <item>The symbol for difference</item>
+        <item>You\'ll hear yourself many times</item>
+        <item>A swift dance</item>
+        <item>A recreational sport</item>
+        <item>An establishment providing rooms away from home</item>
+        <item>A country that always hot</item>
+        <item>Romeo\'s lover</item>
+        <item>The metric pound</item>
+        <item>A type of bean</item>
+        <item>Sculley\'s best friend</item>
+        <item>The 11th month</item>
+        <item>The trash can from Sesame Street</item>
+        <item>Another name for father</item>
+        <item>A french-speaking province</item>
+        <item>Juliet\'s lover</item>
+        <item>A dry desert</item>
+        <item>A fast dance</item>
+        <item>Many schoolchildren wear them</item>
+        <item>A common male name</item>
+        <item>A potent alcoholic beverage</item>
+        <item>A doctor takes them</item>
+        <item>A baseball team</item>
+        <item>An African ethnic group</item>
+    </string-array>
+</resources>

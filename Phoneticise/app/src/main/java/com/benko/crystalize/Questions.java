@@ -13,6 +13,8 @@ import android.widget.Toast;
 
 import org.w3c.dom.Text;
 
+import java.util.Random;
+
 //@TargetApi(21)
 public class Questions extends AppCompatActivity {
 
@@ -21,11 +23,16 @@ public class Questions extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //Get new random number for questions
+        Random rnd = new Random();
+        questionNo = rnd.nextInt(26);
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_questions);
-        String[] questions = getResources().getStringArray(R.array.Questions);
+        String[] letters = getResources().getStringArray(R.array.Letters);
         TextView t = (TextView) findViewById(R.id.question);
-        t.setText(questions[questionNo]);
+        //Set question text with new queston
+        t.setText(String.format(getResources().getString(R.string.question), letters[questionNo]));
         findViewById(R.id.tickcross).setVisibility(View.INVISIBLE);
         findViewById(R.id.correctOrNot).setVisibility(View.INVISIBLE);
         findViewById(R.id.nextButton).setVisibility(View.INVISIBLE);
@@ -90,20 +97,24 @@ public class Questions extends AppCompatActivity {
     }
     public void onNextClick(View view) {
         if(done) {
-            String[] questions = getResources().getStringArray(R.array.Questions);
-            if(questionNo < questions.length - 1) {
-                questionNo++;
-                TextView t = (TextView) findViewById(R.id.question);
-                t.setText(questions[questionNo]);
+            String[] letters = getResources().getStringArray(R.array.Letters);
+            Random rnd = new Random();
+            questionNo = rnd.nextInt(26);
+            TextView t = (TextView) findViewById(R.id.question);
+            t.setText(String.format(getResources().getString(R.string.question), letters[questionNo]));
 
-                findViewById(R.id.tickcross).setVisibility(View.INVISIBLE);
-                findViewById(R.id.correctOrNot).setVisibility(View.INVISIBLE);
-                findViewById(R.id.nextButton).setVisibility(View.INVISIBLE);
-                EditText et = (EditText) findViewById(R.id.answer);
-                et.setText("");
+            findViewById(R.id.tickcross).setVisibility(View.INVISIBLE);
+            findViewById(R.id.correctOrNot).setVisibility(View.INVISIBLE);
+            findViewById(R.id.nextButton).setVisibility(View.INVISIBLE);
+            EditText et = (EditText) findViewById(R.id.answer);
+            et.setText("");
 
-                done = false;
-            }
+            done = false;
         }
+    }
+
+    public void onExit(View view) {
+        finish();
+        moveTaskToBack(true);
     }
 }

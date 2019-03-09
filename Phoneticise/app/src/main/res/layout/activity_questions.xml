@@ -89,4 +89,16 @@
         android:onClick="onNextClick"
         style="@style/Widget.AppCompat.Button.Colored"/>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:padding="2dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/exitButton"
+        android:onClick="onExit"
+        style="@style/Widget.AppCompat.Button.Colored"/>
+
 </LinearLayout>
